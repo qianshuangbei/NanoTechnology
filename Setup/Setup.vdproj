@@ -3,7 +3,7 @@
 "VSVersion" = "3:800"
 "ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
 "IsWebType" = "8:FALSE"
-"ProjectName" = "8:Setup"
+"ProjectName" = "8:Automan"
 "LanguageId" = "3:2052"
 "CodePage" = "3:936"
 "UILanguageId" = "3:2052"
@@ -13,6 +13,12 @@
 "SccProvider" = "8:"
     "Hierarchy"
     {
+        "Entry"
+        {
+        "MsmKey" = "8:_0AEABE33A73044769F9C180B4B104445"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
         "Entry"
         {
         "MsmKey" = "8:_BB736A3E586941CAB51096F015EAF463"
@@ -55,6 +61,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -71,6 +93,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -100,6 +138,26 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0AEABE33A73044769F9C180B4B104445"
+            {
+            "SourcePath" = "8:..\\..\\Software-for-AFM\\Icon\\robot.ico"
+            "TargetName" = "8:robot.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_CDBBCFDBBE184FCA9934BCACC9B354A7"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
         }
         "FileType"
         {
@@ -119,7 +177,7 @@
             }
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_8773CA5912C44FCF9375AFA9D069AF18"
             {
-            "DefaultLocation" = "8:[ProgramFilesFolder][Manufacturer]\\[ProductName]"
+            "DefaultLocation" = "8:[ProgramFiles64Folder][Manufacturer]\\[ProductName]"
             "Name" = "8:#1925"
             "AlwaysCreate" = "11:FALSE"
             "Condition" = "8:"
@@ -140,7 +198,7 @@
                 {
                     "{9EF0B969-E518-4E46-987F-47570745A589}:_99ECC714C0DF407BB5DD1D9049F37D91"
                     {
-                    "Name" = "8:NanoTechnology"
+                    "Name" = "8:Automan"
                     "AlwaysCreate" = "11:FALSE"
                     "Condition" = "8:"
                     "Transitive" = "11:FALSE"
@@ -166,20 +224,20 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:Setup"
+        "ProductName" = "8:Automan"
         "ProductCode" = "8:{BD8AE634-A6B7-4BB2-870A-2468ACF2361A}"
-        "PackageCode" = "8:{8D403E7D-BE32-4323-81FA-5D2A58470F47}"
+        "PackageCode" = "8:{7CCD8727-5C07-4E7A-A01E-83441F73E1CF}"
         "UpgradeCode" = "8:{614DA251-90D6-4B27-A800-A2BCB4CD7D33}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
-        "RemovePreviousVersions" = "11:FALSE"
+        "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
         "ProductVersion" = "8:1.0.0"
         "Manufacturer" = "8:Default Company Name"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:Setup"
+        "Title" = "8:AutomanSetup"
         "Subject" = "8:"
         "ARPCONTACT" = "8:Default Company Name"
         "Keywords" = "8:"
@@ -189,7 +247,7 @@
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
-        "TargetPlatform" = "3:0"
+        "TargetPlatform" = "3:1"
         "PreBuildEvent" = "8:"
         "PostBuildEvent" = "8:"
         "RunPostBuildEvent" = "3:0"
@@ -290,7 +348,7 @@
         {
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_1604CF6C5F2D4DEB87C08EB7D1B7C08C"
             {
-            "Name" = "8:NanoTechnology"
+            "Name" = "8:Automan"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
@@ -299,7 +357,7 @@
             "Target" = "8:_D5D2E1C1CF0B4C8A8BAAFCF1FBB730C6"
             "Folder" = "8:_1D63F458294D4AA6B9E0F95348CD96E5"
             "WorkingFolder" = "8:_8773CA5912C44FCF9375AFA9D069AF18"
-            "Icon" = "8:"
+            "Icon" = "8:_0AEABE33A73044769F9C180B4B104445"
             "Feature" = "8:"
             }
         }
@@ -703,7 +761,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_BB736A3E586941CAB51096F015EAF463"
             {
-            "SourcePath" = "8:..\\MultiMode\\obj\\Debug\\MultiMode.exe"
+            "SourcePath" = "8:..\\NanoLab\\obj\\Debug\\NanoLab.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_99ECC714C0DF407BB5DD1D9049F37D91"
@@ -731,7 +789,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_D5D2E1C1CF0B4C8A8BAAFCF1FBB730C6"
             {
-            "SourcePath" = "8:..\\MultiMode\\obj\\Debug\\MultiMode.exe"
+            "SourcePath" = "8:..\\NanoLab\\obj\\Debug\\NanoLab.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_8773CA5912C44FCF9375AFA9D069AF18"
